@@ -137,11 +137,23 @@ class TableModal extends Component<Props, State> {
                                     className='form-control'
                                     defaultValue={ editData.color }
                                 >
+                                    <option value='table-header-maroon'>Maroon</option>
                                     <option value='table-header-red'>Red</option>
+                                    <option value='table-header-orange'>Orange</option>
+                                    <option value='table-header-yellow'>Yellow</option>
+                                    <option value='table-header-olive'>Olive</option>
                                     <option value='table-header-green'>Green</option>
-                                    <option value='table-header-blue'>Blue</option>
-                                    <option value='table-header-dark-blue'>Dark Blue</option>
                                     <option value='table-header-purple'>Purple</option>
+                                    <option value='table-header-fuchsia'>Fuchsia</option>
+                                    <option value='table-header-lime'>Lime</option>
+                                    <option value='table-header-teal'>Teal</option>
+                                    <option value='table-header-aqua'>Aqua</option>
+                                    <option value='table-header-blue'>Blue</option>
+                                    <option value='table-header-navy'>Navy</option>
+                                    <option value='table-header-black'>Black</option>
+                                    <option value='table-header-gray'>Gray</option>
+                                    <option value='table-header-silver'>Silver</option>
+                                    <option value='table-header-white'>White</option>
                                 </select>
                             </div>
                         </div>
